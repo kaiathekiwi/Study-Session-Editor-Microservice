@@ -76,3 +76,13 @@ The message values may vary, however the only possible status values are "succes
 ## UML Diagram
 
 ![image](https://github.com/user-attachments/assets/d98e83c8-f3fc-4229-8594-e991ffa5701b)
+
+## File Descriptions
+
+**microservice_a.py** - Contains the microservice for use with a main program
+
+**microservice_test.py** - Contains the various tests for rigorous examples of possible responses and requests
+
+**json maker.py** - Contains a basic program to reset the test study session JSON file for re-running microservice_test.py
+
+**study_log.json** - The test study session JSON file for using with the microservice_test.py

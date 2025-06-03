@@ -77,6 +77,14 @@ The message values may vary, however the only possible status values are "succes
 
 ![image](https://github.com/user-attachments/assets/d98e83c8-f3fc-4229-8594-e991ffa5701b)
 
+## How to Run the Microservice
+
+1. Download the Microservice and place it in a folder of your choosing
+2. Open the terminal and change your directory to the folder with the microservice_a.py file in it
+3. Optional: Enter "pip install pyzmq" if you do not already have the package installed (only do this during the first run)
+5. Start the microservice using "python microservice_a.py" or "py microservice_a.py"
+6. Run your main program in a separate terminal using the proper start commands (or when testing, type "python microservice_test.py") and if you programmed the calls correctly, it should call my microservice
+
 ## File Descriptions
 
 **microservice_a.py** - Contains the microservice for use with a main program
